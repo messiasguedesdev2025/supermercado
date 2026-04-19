@@ -21,7 +21,7 @@ public class UsuarioMapperRecord {
        return new UsuarioResponseRecord(
                usuarioEntity.getId(),
                usuarioEntity.getNome(),
-               usuarioEntity.getSenha(),
+               usuarioEntity.getEmail(),
                 usuarioEntity.getStatus());
     }
 
